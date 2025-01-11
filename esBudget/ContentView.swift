@@ -1,24 +1,20 @@
-//
-//  ContentView.swift
-//  esBudget
-//
-//  Created by Dre Price on 12/13/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+    
+    var body: some View{
+        NavigationView {
+            NavigationLink(destination: ProfileView()) {
+                        Text("Tap Me")
+                    }
+                }
+    }
+    
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 
-#Preview {
-    ContentView()
-}
