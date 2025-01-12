@@ -4,7 +4,7 @@ struct ContentView: View {
     
     var body: some View{
         NavigationView {
-            NavigationLink(destination: ProfileView()) {
+            NavigationLink(destination: LoginView()) {
                         Text("Tap Me")
                     }
                 }
