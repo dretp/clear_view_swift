@@ -9,3 +9,12 @@ import Foundation
 
 
 
+enum Tabs : String{
+    case recents = "Recents"
+    case search = "Filter"
+    case setting = "Settings"
+    
+    
+    
+    
+}

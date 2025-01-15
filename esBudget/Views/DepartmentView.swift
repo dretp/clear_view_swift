@@ -14,7 +14,7 @@ struct DepartmentView: View {
     var body: some View {
         
         VStack{
-            TextField("hello",text: $deptName)
+            Text("Departments")
             
             
                 
